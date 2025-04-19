@@ -46,8 +46,37 @@ cd ~/.dotfiles
 exec zsh
 ```
 
-Requires: macOS, Homebrew, Zsh
+Requires: macOS or Linux, Homebrew, Zsh
 
+---
+## 🛠️ Development Setup
+
+🛠️ Makefile Commands
+
+A Makefile has been added to streamline common development tasks.
+
+Available Commands
+	•	make install
+Installs the project dependencies using Poetry.
+	•	make dev
+Runs the application in development mode (equivalent to poetry run python main.py).
+	•	make clean
+Removes temporary files and virtual environments.
+	•	make test
+Runs all tests (if tests are defined).
+
+Usage
+
+From the project root, run:
+
+make install   # Install dependencies
+make dev       # Run the app
+make test      # Run tests
+make clean     # Clean up
+
+Make sure you have make and poetry installed on your system.
+
+⸻
 ---
 
 ## ⚡ Features
